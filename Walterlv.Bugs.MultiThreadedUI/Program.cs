@@ -9,7 +9,10 @@ namespace Walterlv.Bugs.MultiThreadedUI
         [STAThread]
         private static void Main(string[] args)
         {
-            RunSplashWindow();
+            for (var i = 0; i < 50; i++)
+            {
+                RunSplashWindow();
+            }
             var app = new App();
             app.InitializeComponent();
             app.Run();
