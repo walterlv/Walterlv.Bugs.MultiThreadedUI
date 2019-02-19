@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Walterlv.Bugs.MultiThreadedUI.Program</StartupObject>
+    <RootNamespace>Walterlv.Bugs.MultiThreadedUI</RootNamespace> 
+  </PropertyGroup>
+</Project>

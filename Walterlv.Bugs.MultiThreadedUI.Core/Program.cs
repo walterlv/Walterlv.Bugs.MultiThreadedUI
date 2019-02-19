@@ -9,9 +9,14 @@ namespace Walterlv.Bugs.MultiThreadedUI
         [STAThread]
         private static void Main(string[] args)
         {
+            for (var i = 0; i < 50; i++)
+            {
+                RunSplashWindow(i);
+            }
+
             var app = new App();
             app.InitializeComponent();
-            // app.Dispatcher.UnhandledException += OnUnhandledException;
+            app.Dispatcher.UnhandledException += OnUnhandledException;
             app.Run();
         }
 
@@ -19,9 +24,9 @@ namespace Walterlv.Bugs.MultiThreadedUI
         {
             var thread = new Thread(() =>
             {
-                SynchronizationContext.SetSynchronizationContext(
-                    new DispatcherSynchronizationContext(
-                        Dispatcher.CurrentDispatcher));
+                //SynchronizationContext.SetSynchronizationContext(
+                //    new DispatcherSynchronizationContext(
+                //        Dispatcher.CurrentDispatcher));
 
                 try
                 {

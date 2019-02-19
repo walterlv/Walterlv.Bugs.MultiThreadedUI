@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walterlv.Bugs.MultiThreadedUI", "Walterlv.Bugs.MultiThreadedUI\Walterlv.Bugs.MultiThreadedUI.csproj", "{4C96B942-3835-43DD-91DE-B8476EF54455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walterlv.Bugs.MultiThreadedUI.Core", "Walterlv.Bugs.MultiThreadedUI.Core\Walterlv.Bugs.MultiThreadedUI.Core.csproj", "{16081E57-995E-47A7-A665-1CF89977F60F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4C96B942-3835-43DD-91DE-B8476EF54455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C96B942-3835-43DD-91DE-B8476EF54455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C96B942-3835-43DD-91DE-B8476EF54455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16081E57-995E-47A7-A665-1CF89977F60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16081E57-995E-47A7-A665-1CF89977F60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16081E57-995E-47A7-A665-1CF89977F60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16081E57-995E-47A7-A665-1CF89977F60F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
